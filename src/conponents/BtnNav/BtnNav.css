@@ -1,0 +1,24 @@
+.btnNav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    padding: 0 20px;
+}
+
+.itemNav {
+    padding: 10px 25px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-right: 10px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.itemNav:hover {
+    background-color: #f0eded;
+    /* border: 2px solid black; */
+}
+
+.itemNav-active {
+    border-bottom: 2px solid red;
+}

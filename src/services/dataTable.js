@@ -6,7 +6,7 @@ export const dataObject = {
   cars: [
     { 
       id: 1,
-      brand: "Toyota", 
+      title: "Toyota", 
       model: "Corolla", 
       year: 2019, 
       color: "black", 
@@ -14,7 +14,7 @@ export const dataObject = {
     },
     { 
       id: 2,
-      brand: "Honda", 
+      title: "Honda", 
       model: "Civic", 
       year: 2020, 
       color: "red", 
@@ -22,7 +22,7 @@ export const dataObject = {
     },
     { 
       id: 3,
-      brand: "Ford", 
+      title: "Ford", 
       model: "Escape", 
       year: 2018, 
       color: "silver", 
@@ -30,7 +30,7 @@ export const dataObject = {
     },
     { 
       id: 4,
-      brand: "Chevrolet", 
+      title: "Chevrolet", 
       model: "Malibu", 
       year: 2017, 
       color: "blue", 
@@ -38,7 +38,7 @@ export const dataObject = {
     },
     { 
       id: 5,
-      brand: "Nissan", 
+      title: "Nissan", 
       model: "Altima", 
       year: 2019, 
       color: "white", 
@@ -46,7 +46,7 @@ export const dataObject = {
     },
     { 
       id: 6,
-      brand: "Kia", 
+      title: "Kia", 
       model: "Soul", 
       year: 2018, 
       color: "gray", 
@@ -54,7 +54,7 @@ export const dataObject = {
     },
     { 
       id: 7,
-      brand: "Hyundai", 
+      title: "Hyundai", 
       model: "Elantra", 
       year: 2020, 
       color: "green", 
@@ -62,7 +62,7 @@ export const dataObject = {
     },
     { 
       id: 8,
-      brand: "BMW", 
+      title: "BMW", 
       model: "3 Series", 
       year: 2019, 
       color: "black", 
@@ -70,7 +70,7 @@ export const dataObject = {
     },
     { 
       id: 9,
-      brand: "Audi", 
+      title: "Audi", 
       model: "A4", 
       year: 2017, 
       color: "silver", 
@@ -78,7 +78,7 @@ export const dataObject = {
     },
     { 
       id: 10,
-      brand: "Mercedes-Benz", 
+      title: "Mercedes-Benz", 
       model: "C-Class", 
       year: 2020, 
       color: "white", 
@@ -86,7 +86,7 @@ export const dataObject = {
     },
     { 
       id: 11,
-      brand: "Lexus", 
+      title: "Lexus", 
       model: "IS", 
       year: 2018, 
       color: "blue", 
@@ -94,7 +94,7 @@ export const dataObject = {
     },
     { 
       id: 12,
-      brand: "Tesla", 
+      title: "Tesla", 
       model: "Model 3", 
       year: 2019, 
       color: "red", 
@@ -102,7 +102,7 @@ export const dataObject = {
     },
     { 
       id: 13,
-      brand: "Volkswagen", 
+      title: "Volkswagen", 
       model: "Jetta", 
       year: 2017, 
       color: "black", 
@@ -110,7 +110,7 @@ export const dataObject = {
     },
     { 
       id: 14,
-      brand: "Subaru", 
+      title: "Subaru", 
       model: "Impreza", 
       year: 2018, 
       color: "gray", 
@@ -118,7 +118,7 @@ export const dataObject = {
     },
     { 
       id: 15,
-      brand: "Mazda", 
+      title: "Mazda", 
       model: "Mazda3", 
       year: 2020, 
       color: "silver", 
@@ -127,16 +127,16 @@ export const dataObject = {
   ],
   
   clothes: [
-    {id: 1, item: "T-shirt", size: "M", color: "black", price: 20 },
-    {id: 2, item: "Jeans", size: "32", color: "blue", price: 40 },
-    {id: 3, item: "Dress", size: "S", color: "red", price: 50 },
-    {id: 4, item: "Shirt", size: "L", color: "white", price: 30 },
-    {id: 5, item: "Skirt", size: "M", color: "green", price: 25 },
-    {id: 6, item: "Sweater", size: "M", color: "gray", price: 35 },
-    {id: 7, item: "Jacket", size: "L", color: "brown", price: 60 },
-    {id: 8, item: "Coat", size: "S", color: "black", price: 70 },
-    {id: 9, item: "Hoodie", size: "XL", color: "blue", price: 45 },
-    {id: 10, item: "Blouse", size: "S", color: "pink", price: 25 }
+    {id: 1, title: "T-shirt", size: "M", color: "black", price: 20 },
+    {id: 2, title: "Jeans", size: "32", color: "blue", price: 40 },
+    {id: 3, title: "Dress", size: "S", color: "red", price: 50 },
+    {id: 4, title: "Shirt", size: "L", color: "white", price: 30 },
+    {id: 5, title: "Skirt", size: "M", color: "green", price: 25 },
+    {id: 6, title: "Sweater", size: "M", color: "gray", price: 35 },
+    {id: 7, title: "Jacket", size: "L", color: "brown", price: 60 },
+    {id: 8, title: "Coat", size: "S", color: "black", price: 70 },
+    {id: 9, title: "Hoodie", size: "XL", color: "blue", price: 45 },
+    {id: 10, title: "Blouse", size: "S", color: "pink", price: 25 }
   ],
 
   countriesInfo: [

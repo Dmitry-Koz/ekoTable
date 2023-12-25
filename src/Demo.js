@@ -205,7 +205,7 @@ EnhancedTableToolbar.propTypes = {
 
 export default function EnhancedTable(props) {
 
-  const {checkboxActive, dataRow, headCell} = props;
+  const {checkboxActive, dataRow} = props;
 
 
   const [rows, setRows] = React.useState(dataRow)
@@ -215,6 +215,13 @@ export default function EnhancedTable(props) {
   const [page, setPage] = React.useState(0);
   const [dense, setDense] = React.useState(false);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
+
+  React.useEffect(
+    () =>{
+      return setRows(dataRow)
+    },
+    [dataRow]
+  )
 
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === 'asc';
@@ -308,7 +315,7 @@ export default function EnhancedTable(props) {
               onRequestSort={handleRequestSort}
               rowCount={rows.length}
               checkActive = {checkboxActive}
-              headCellProps={headCell}
+              headCellProps={rows}
             />
             <TableBody>
               {visibleRows.map((row, index) => {
